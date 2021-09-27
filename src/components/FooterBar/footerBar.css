@@ -1,0 +1,17 @@
+.row-top {
+  display: flex;
+  justify-content: space-around;
+}
+.container-footer {
+  padding: 30px;
+  background: #2699fb;
+}
+.footerRight {
+  margin: 30px;
+}
+.visit-content {
+  margin-bottom: 20px;
+}
+h3 {
+  margin-bottom: 20px;
+}

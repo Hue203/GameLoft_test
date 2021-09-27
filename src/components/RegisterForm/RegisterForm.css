@@ -1,0 +1,66 @@
+body {
+  font: 1em sans-serif;
+}
+.container-registerForm {
+  background-color: #9bdaeb;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 30%;
+  height: 50%;
+  line-break: loose;
+  padding: 10px;
+
+  margin: 0 30px 0 0;
+  color: #1483d2;
+}
+.form-container h1 {
+  font-size: 20px;
+}
+.form {
+  padding-top: 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input[type="text"],
+[type="email"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(210, 164, 164);
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+input[type="checkbox"] {
+  margin-top: 20px;
+}
+.minions-img {
+  padding-left: 100px;
+}
+.button {
+  margin-top: 20px;
+  min-width: 30px;
+  padding: 10px 26px;
+  border: none;
+  background-color: #1483d2;
+  color: #fff;
+  cursor: pointer;
+}
+@media (max-width: 498px) {
+  .minions-img {
+    display: none;
+  }
+  .form-container {
+    width: 400px;
+  }
+}
