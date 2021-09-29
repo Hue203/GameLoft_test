@@ -1,252 +1,42 @@
 import React from "react";
-import EventPromotions from "../EventPromotions/EventPromotions";
-import Carousel from "./Carousel";
+import CarouselTop from "./CarouselTop/CarouselTop";
 import "./gameCommunityHub.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import CarouselBody from "./CarouselBody/CarouselBody";
+
 const GameCommunityHub = () => {
   return (
-    <>
-      <section>
-        <div
-          style={{
-            maxWidth: 900,
-            height: "100px",
-            marginBottom: 100,
-            marginLeft: "auto",
-            marginRight: "auto",
-            marginTop: 64,
-            paddingLeft: 30,
-          }}
-        >
-          <Carousel show={6}>
-            <div>
-              <div style={{ padding: 5, height: "100px" }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{
-                    width: "60%",
-                    height: "100px",
-                    borderRadius: "50%",
-                  }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 5, height: "100px" }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{
-                    width: "60%",
-                    height: "100px",
-                    borderRadius: "50%",
-                  }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 5, height: "100px" }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{
-                    width: "60%",
-                    height: "100px",
-                    borderRadius: "50%",
-                  }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 5, height: "100px" }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{
-                    width: "60%",
-                    height: "100px",
-                    borderRadius: "50%",
-                  }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 5, height: "100px" }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{
-                    width: "60%",
-                    height: "100px",
-                    borderRadius: "50%",
-                  }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 5, height: "100px" }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{
-                    width: "60%",
-                    height: "100px",
-                    borderRadius: "50%",
-                  }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 5, height: "100px" }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{
-                    width: "60%",
-                    height: "100px",
-                    borderRadius: "50%",
-                  }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 5, height: "100px" }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{
-                    width: "60%",
-                    height: "100px",
-                    borderRadius: "50%",
-                  }}
-                />
-              </div>
-              <div>
-                <div style={{ padding: 5, height: "100px" }}>
-                  <img
-                    src="https://via.placeholder.com/300x300"
-                    alt="placeholder"
-                    style={{
-                      width: "60%",
-                      height: "100px",
-                      borderRadius: "50%",
-                    }}
-                  />
-                </div>
-              </div>
-              <div>
-                <div style={{ padding: 5, height: "100px" }}>
-                  <img
-                    src="https://via.placeholder.com/300x300"
-                    alt="placeholder"
-                    style={{
-                      width: "60%",
-                      height: "100px",
-                      borderRadius: "50%",
-                    }}
-                  />
-                </div>
-              </div>
-              <div>
-                <div style={{ padding: 5, height: "100px" }}>
-                  <img
-                    src="https://via.placeholder.com/300x300"
-                    alt="placeholder"
-                    style={{
-                      width: "60%",
-                      height: "100px",
-                      borderRadius: "50%",
-                    }}
-                  />
-                </div>
-              </div>
-            </div>
-          </Carousel>
+    <section
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        paddingTop: "80px",
+        textAlign: "center",
+        backgroundColor: "#b3d4fc",
+      }}
+    >
+      <div className="gameCommunity-Container">
+        <div style={{ fontSize: "45px" }}>Game Community Hub</div>
+        <div className="slider-top">
+          <div style={{ fontSize: "26px" }}>Live Game Updates</div>
+          <CarouselTop />
         </div>
-        <div
-          style={{
-            maxWidth: 800,
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-        >
-          <Carousel show={5}>
-            <div>
-              <div style={{ padding: 8 }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{ width: "100%", height: "300px" }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 8 }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{ width: "100%", height: "300px" }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 8 }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{ width: "100%", height: "300px" }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 8 }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{ width: "100%", height: "300px" }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 8 }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{ width: "100%", height: "300px" }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 8 }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{ width: "100%", height: "300px" }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 8 }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{ width: "100%", height: "300px" }}
-                />
-              </div>
-            </div>
-            <div>
-              <div style={{ padding: 8 }}>
-                <img
-                  src="https://via.placeholder.com/300x300"
-                  alt="placeholder"
-                  style={{ width: "100%", height: "300px" }}
-                />
-              </div>
-            </div>
-          </Carousel>
+        <div className="allPost">
+          <div>All Posts</div>
+          <div className="allpost-right">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram"></i>
+            <input type="text" name="search" placeholder="Search.."></input>
+          </div>
         </div>
-      </section>
-    </>
+        <div className="slider-bottom">
+          <CarouselBody />
+        </div>
+      </div>
+    </section>
   );
 };
 

@@ -1,0 +1,27 @@
+.slick-arrow,
+.slick-prev,
+.slick-next {
+  color: blue;
+}
+
+input[type="text"] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type="text"]:focus {
+  width: 100%;
+}
+.allPost {
+  display: flex;
+  justify-content: space-between;
+}
+.allpost-right {
+  display: flex;
+  justify-content: space-between;
+}
+.allpost-right i {
+  margin: 10px;
+}

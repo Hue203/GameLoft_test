@@ -1,17 +1,15 @@
 import React from "react";
-import Carousel from "./Carousel";
-import "./EventPromotions.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-const EventPromotions = () => {
+const CarouselGame = () => {
   const settings = {
-    className: "center",
+    dots: true,
     centerMode: true,
     infinite: true,
-    centerPadding: "60px",
+    speed: 500,
     slidesToShow: 5,
-
+    slidesToScroll: 3,
     appendDots: (dots) => (
       <div
         style={{
@@ -24,16 +22,7 @@ const EventPromotions = () => {
     customPaging: (i) => <div className="customPaging">{i + 1}</div>,
   };
   return (
-    <section className="eventPromotion-section">
-      <div>
-        <h1>Special Events & Promotional</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
-          adipisci veniam accusamus ab maxime, nobis blanditiis dicta sit
-          veritatis ratione itaque ex sunt, voluptatum ipsa voluptate obcaecati
-          illo id est?
-        </p>
-      </div>
+    <>
       <div
         style={{
           maxWidth: 1200,
@@ -46,7 +35,7 @@ const EventPromotions = () => {
           <div>
             <div style={{ padding: 8 }}>
               <img
-                src="https://via.placeholder.com/300x300"
+                src="https://i.pinimg.com/474x/40/99/f3/4099f362d12955aba8ea6fd6b59d6ccd.jpg"
                 alt="placeholder"
                 style={{ width: "100%" }}
               />
@@ -55,7 +44,7 @@ const EventPromotions = () => {
           <div>
             <div style={{ padding: 8 }}>
               <img
-                src="https://via.placeholder.com/300x300"
+                src="https://i.pinimg.com/474x/40/99/f3/4099f362d12955aba8ea6fd6b59d6ccd.jpg"
                 alt="placeholder"
                 style={{ width: "100%" }}
               />
@@ -64,7 +53,7 @@ const EventPromotions = () => {
           <div>
             <div style={{ padding: 8 }}>
               <img
-                src="https://via.placeholder.com/300x300"
+                src="https://i.pinimg.com/474x/40/99/f3/4099f362d12955aba8ea6fd6b59d6ccd.jpg"
                 alt="placeholder"
                 style={{ width: "100%" }}
               />
@@ -73,7 +62,7 @@ const EventPromotions = () => {
           <div>
             <div style={{ padding: 8 }}>
               <img
-                src="https://via.placeholder.com/300x300"
+                src="https://i.pinimg.com/474x/40/99/f3/4099f362d12955aba8ea6fd6b59d6ccd.jpg"
                 alt="placeholder"
                 style={{ width: "100%" }}
               />
@@ -82,7 +71,7 @@ const EventPromotions = () => {
           <div>
             <div style={{ padding: 8 }}>
               <img
-                src="https://via.placeholder.com/300x300"
+                src="https://i.pinimg.com/474x/40/99/f3/4099f362d12955aba8ea6fd6b59d6ccd.jpg"
                 alt="placeholder"
                 style={{ width: "100%" }}
               />
@@ -91,7 +80,7 @@ const EventPromotions = () => {
           <div>
             <div style={{ padding: 8 }}>
               <img
-                src="https://via.placeholder.com/300x300"
+                src="https://i.pinimg.com/474x/40/99/f3/4099f362d12955aba8ea6fd6b59d6ccd.jpg"
                 alt="placeholder"
                 style={{ width: "100%" }}
               />
@@ -100,7 +89,7 @@ const EventPromotions = () => {
           <div>
             <div style={{ padding: 8 }}>
               <img
-                src="https://via.placeholder.com/300x300"
+                src="https://i.pinimg.com/474x/40/99/f3/4099f362d12955aba8ea6fd6b59d6ccd.jpg"
                 alt="placeholder"
                 style={{ width: "100%" }}
               />
@@ -109,7 +98,7 @@ const EventPromotions = () => {
           <div>
             <div style={{ padding: 8 }}>
               <img
-                src="https://via.placeholder.com/300x300"
+                src="https://i.pinimg.com/474x/40/99/f3/4099f362d12955aba8ea6fd6b59d6ccd.jpg"
                 alt="placeholder"
                 style={{ width: "100%" }}
               />
@@ -117,8 +106,8 @@ const EventPromotions = () => {
           </div>
         </Slider>
       </div>
-    </section>
+    </>
   );
 };
 
-export default EventPromotions;
+export default CarouselGame;

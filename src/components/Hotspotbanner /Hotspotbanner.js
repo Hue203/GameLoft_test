@@ -10,15 +10,11 @@ const Hotspotbanner = () => {
             <div className="product">
               <div className="product-title">GAMELOFT GAME</div>
               <div className="product-name">
-                Racing / Action |
-                <span>
-                  <StarRatings
-                    rating={4.5}
-                    starRatedColor="gold"
-                    numberOfStars={5}
-                    name="rating"
-                  />
-                </span>
+                Racing / Action |<span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
               </div>
             </div>
 
@@ -35,31 +31,30 @@ const Hotspotbanner = () => {
       </section>
       <section className="bottom-page">
         <div className="container-stores">
-          <div className="text-dowload">
-            <h3>Dowload Latest Version</h3>
-          </div>
+          <h4 className="stores-content" style={{ width: "100%" }}>
+            <span className="txt-download" style={{ display: "inline" }}>
+              Dowload Latest Versions
+            </span>
+          </h4>
           <div class="store-buttons">
-            <button class=" btn btn-apple">
-              <i class="fa fa-apple  icon"></i>
-              <span class=" text-left">
-                <small class="font-weight-light ">Available on the</small> App
-                Store
-              </span>
-            </button>
-            <button class=" btn btn-androi">
-              <i class="fa fa-android  icon"></i>
-              <span class="text-left">
-                <small class="font-weight-light ">Get it on the</small> Google
-                Play
-              </span>
-            </button>
-            <button class=" btn btn-apple">
-              <i class="fa fa-apple  icon"></i>
-              <span class=" text-left">
-                <small class="font-weight-light ">Available on the</small> App
-                Store
-              </span>
-            </button>
+            <a href="./">
+              <img
+                src="https://media01.gameloft.com/web_mkt/global-store-badges-v2/windowstore/EN.png?v=3"
+                alt="windowstore"
+              />
+            </a>
+            <a href="./">
+              <img
+                src="https://media01.gameloft.com/web_mkt/minisites/asphalt-9/assets/os/dist/images/home/nintendo-eshop-btn.jpg"
+                alt="nintendo-eshop"
+              />
+            </a>
+            <a href="./">
+              <img
+                src="https://media01.gameloft.com/web_mkt/global-store-badges-v2/windowstore/EN.png?v=3"
+                alt="facebook"
+              />
+            </a>
           </div>
         </div>
       </section>

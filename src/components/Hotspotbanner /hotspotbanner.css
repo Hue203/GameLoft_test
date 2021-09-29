@@ -2,24 +2,19 @@
   color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
   color: black;
+  width: 100%;
   height: 100vh;
   background-color: #2699fb;
 }
 .container-game {
   color: white;
-  margin: 0px 30px 30px 30px;
-  top: 80vh;
-  position: absolute;
+  padding-top: 70vh;
   left: 0;
   bottom: 0;
-  display: flex;
   justify-content: space-between;
 }
 .content-game {
-  display: flex;
-  flex-wrap: wrap;
   width: 50%;
-  margin-bottom: 30px;
 }
 .product {
   padding-bottom: 10px;
@@ -30,31 +25,36 @@
 }
 .bottom-page {
   color: #2699fb;
-  max-height: 80px;
 }
 .container-stores {
-  padding-left: 200px;
+  text-align: center;
   display: flex;
   justify-content: space-between;
 }
 
 .store-buttons {
-  margin-right: 200px;
+  width: 100%;
+  text-align: center;
 }
-.btn {
-  margin-left: 10px;
-  border-radius: 5px;
-  max-height: 200px;
-  background-color: gray;
+.store-buttons a img {
+  margin-left: 20px;
 }
-
 .bottom-page {
+  max-height: 210px;
   padding: 30px;
   background-color: #5ec2dd;
 }
 
-.text-dowload {
-  font-size: 18px;
+.stores-content {
+  color: #0981eb;
+  font-size: 20px;
+  font-weight: bold;
+}
+.text-left {
+  color: white;
+}
+.checked {
+  color: orange;
 }
 @media (max-width: 498px) {
   .section-main {
@@ -64,5 +64,20 @@
     font-size: 14px;
     width: 100%;
     padding-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-stores {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .section-main {
+    padding-left: 10px;
+    text-align: left;
+    width: fit-content;
   }
 }

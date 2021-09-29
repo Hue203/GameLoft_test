@@ -45,7 +45,7 @@ const RegisterForm = () => {
             <input type="checkbox" /> I agree to receive promotional offers
             relating to all Gameloft games and services
             <br />
-            <button className="button">Button</button>
+            <button className=" register-btn">Button</button>
           </form>
         </div>
       </div>
